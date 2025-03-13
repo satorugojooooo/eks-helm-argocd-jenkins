@@ -2,7 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "your-dockerhub-username/your-image-name:latest"
+        IMAGE_NAME = "jeevac33/node-app
+"
         CONTAINER_NAME = "myapp-container"
     }
 
