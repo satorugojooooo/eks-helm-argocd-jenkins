@@ -2,8 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "jeevac33/node-app:latest"
-
+        IMAGE_NAME = "jeevac33/node-app:latest"  // ✅ Make sure this is correctly formatted
         CONTAINER_NAME = "myapp-container"
     }
 
