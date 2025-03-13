@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "jeevac33/node-app:latest"
-"
+
         CONTAINER_NAME = "myapp-container"
     }
 
